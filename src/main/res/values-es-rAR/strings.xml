@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ULTRACASA3000</string>
+    <string name="title_home">Home</string>
+    <string name="title_routines">Rutinas</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="title_security">Seguridad</string>
+
+    <!-- TODO: room - mandarle el nombre de lo que clickea -->
+    <string name="title_room">Room XX</string>
+
+    <string name="add_device">Agregar Dispositivo</string>
+
+    <!-- security -->
+    <string name="security_title">ALARMA</string>
+    <string name="change_security_code">Cambiar código</string>
+    <string name="home_mode">Modo dentro de casa</string>
+    <string name="regular_mode">Modo fuera de casa</string>
+    <string name="disarm_alarm">Desactivada</string>
+
+    <!-- para el dialogo de change code -->
+    <string name="password">Contaseña</string>
+    <string name="new_password">Nueva Contraseña</string>
+    <string name="change_mode">Cambiar Modo</string>
+
+    <!-- crear habitacion -->
+    <string name="error_message" >Algo salio mal:</string>
+    <string name="create_room">Crear Habitación</string>
+    <string name="new_room">Nombre de la Habitación</string>
+
+
+    <!-- botones generales -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancel_room_creation">CANCELAR</string>
+    <string name="ok_room_creation">OK</string>
+
+    <!-- para el dialogo de la puerta -->
+    <string name="door">Puerta</string>
+    <string name="open">Abierta</string>
+    <string name="close">Cerrada</string>
+    <string name="lock_unlock">Bloqueada/Desbloqueada</string>
+
+    <!-- Routine -->
+
+    <string name="no_routines">NO HAY RUTINAS</string>
+
+
+    <!-- para el dialogo de la cortina -->
+    <string name="blind">Cortina</string>
+
+
+    <!-- para el dialogo del ac -->
+    <string name="air_conditioner">Aire Acondicionado</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="temperature">Temperatura</string>
+    <string name="ac_mode">Modo</string>
+    <string name="hot_mode">CALOR</string>
+    <string name="cold_mode">FRIO</string>
+
+
+    <!-- para el dialogo del horno -->
+    <string name="oven">Horno</string>
+    <string name="grill_mode">Modo Grill:</string>
+    <string name="economic">eco</string>
+    <string name="full">FULL</string>
+    <string name="up">ARRIBA</string>
+    <string name="down">ABAJO</string>
+    <string name="convection_mode">Mode Conveccion:</string>
+    <string name="hot_mode_oven">Fuente de Calor:</string>
+
+
+
+    <!-- para el dialogo de la heladera -->
+    <string name="refrigerator">Heladera</string>
+    <string name="freezer_temperature">Temperatura del Freezer:</string>
+    <string name="refrigerator_temperature">Temperatura de la Heladera:</string>
+    <string name="refrigerator_mode">Modo:</string>
+    <string name="holidays">Vacaciones</string>
+    <string name="party">Fiesta</string>
+    <string name="normal">Normal</string>
+
+    <!-- Notifications Screen -->
+    <string name="settings_title">Configuraciones</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="api_desc">Descripcion de la API</string>
+    <string name="api_title">API</string>
+
+</resources>

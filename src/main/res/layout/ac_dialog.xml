@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ac_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/air_conditioner"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <Button
+            android:id="@+id/on_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on"
+            android:enabled="false"
+            android:layout_marginEnd="15dp"/>
+
+        <Button
+            android:id="@+id/off_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/off" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/temperature_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/temperature"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/temperature_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:scrollbarSize="200dp">
+
+    </androidx.appcompat.widget.AppCompatSeekBar>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <Button
+            android:id="@+id/hot_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_mode"
+            android:drawableStart="@drawable/ic_whatshot_red_24dp"
+            android:enabled="false"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_mode"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/cold_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cold_mode"
+            android:drawableStart="@drawable/ic_ac_unit_blue_24dp"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/cancel_text_view"
+            android:gravity="start"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_room_creation"
+            android:layout_marginEnd="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/violet"
+            android:background="@null"/>
+
+        <TextView
+            android:id="@+id/ok_text_view"
+            android:layout_width="wrap_content"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@null"
+            android:text="@string/ok_room_creation"
+            android:textColor="@color/violet"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

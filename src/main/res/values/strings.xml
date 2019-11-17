@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">HCIAndroid</string>
+    <string name="title_home">Home</string>
+    <string name="title_routines">Routines</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_security">Security</string>
+
+    <!-- TODO: room - mandarle el nombre de lo que clickea -->
+    <string name="title_room">Room XX</string>
+
+    <string name="add_device">Add Device</string>
+    
+    <!-- security -->
+    <string name="security_title">ALARM</string>
+    <string name="change_security_code">Change Code</string>
+    <string name="home_mode">Inside Mode</string>
+    <string name="regular_mode">Out of home mode</string>
+    <string name="disarm_alarm">Disarm</string>
+
+    <!-- para el dialogo de change code -->
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="change_mode">Change Mode</string>
+
+
+
+    <string name="error_message" >Something went wrong:</string>
+    <string name="create_room">Create Room</string>
+    <string name="new_room">Room Name</string>
+
+
+    <!-- botones generales -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_room_creation">CANCEL</string>
+    <string name="ok_room_creation">OK</string>
+
+    <!-- para el dialogo de la puerta -->
+    <string name="door">Door</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="lock_unlock">Lock/Unlock</string>
+
+
+    <!-- Routine -->
+    <string name="no_routines">NO ROUTINES</string>
+
+
+    <!-- para el dialogo de la cortina -->
+    <string name="blind">Blind</string>
+
+
+    <!-- para el dialogo del ac -->
+    <string name="air_conditioner">Air Conditioner</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="temperature">Temperature:</string>
+    <string name="ac_mode">Mode</string>
+    <string name="hot_mode">HOT</string>
+    <string name="cold_mode">COLD</string>
+
+
+    <!-- para el dialogo del horno -->
+    <string name="oven">Oven</string>
+    <string name="grill_mode">Grill Mode:</string>
+    <string name="economic">eco</string>
+    <string name="full">FULL</string>
+    <string name="up">UP</string>
+    <string name="down">DOWN</string>
+    <string name="convection_mode">Convection Mode:</string>
+    <string name="hot_mode_oven">Hot Mode:</string>
+
+
+
+    <!-- para el dialogo de la heladera -->
+    <string name="refrigerator">Refrigerator</string>
+    <string name="freezer_temperature">Freezer Temperature:</string>
+    <string name="refrigerator_temperature">Refrigerator Temperature:</string>
+    <string name="refrigerator_mode">Refrigerator Mode:</string>
+    <string name="holidays">Holidays</string>
+    <string name="party">Party</string>
+    <string name="normal">normal</string>
+
+    <!-- Notifications Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="api_desc">Description of the API</string>
+    <string name="api_title">API</string>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/alarm_safety_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/security_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/security_title"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/change_code"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/security_title"
+        android:text="@string/change_security_code"
+        android:textSize="15sp"
+        android:background="@color/violet"
+        android:drawableStart="@drawable/ic_edit_white_24dp"
+        android:padding="20dp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/home_mode"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/change_code"
+        android:text="@string/home_mode"
+        android:textSize="15sp"
+        android:background="@color/violet"
+        android:drawableStart="@drawable/ic_home_white_24dp"
+        android:padding="20dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/regular_mode"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/home_mode"
+        android:text="@string/regular_mode"
+        android:textSize="15sp"
+        android:background="@color/violet"
+        android:drawableStart="@drawable/ic_lock_white_24dp"
+        android:padding="20dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/disarm_alarm"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/regular_mode"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/violet"
+        android:drawableStart="@drawable/ic_lock_open_white_24dp"
+        android:padding="20dp"
+        android:text="@string/disarm_alarm"
+        android:textSize="15sp"
+        android:enabled="false">
+
+    </Button>
+
+
+
+
+</RelativeLayout>
